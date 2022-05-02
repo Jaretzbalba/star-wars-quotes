@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+html {
+  font-size: 2rem;
+  line-height: 1.4;
+  font-family: Helvetica;
+  background: url('https://wallpaperaccess.com/full/3430638.png');
+  background-size: cover;
+  background-position: -4rem;
+}
+
+body {
+  box-sizing: border-box;
+  gap: 1rem;
+  margin: 0;
+  padding: 1rem;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1,
+h2,
+p,
+span {
+  margin: 0;
+  color: #ffe81f;
+}
