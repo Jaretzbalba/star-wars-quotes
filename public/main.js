@@ -53,7 +53,7 @@ deleteAllButton.addEventListener('click', _ => {
     })
     .then(response => {
       if (response === 'No quote to delete') {
-        messageDiv.textContent = 'No Darth Vadar quote to delete';
+        messageDiv.textContent = 'All quotes already deleted!';
       } else {
         window.location.reload(true);
       }

@@ -25,7 +25,8 @@ body {
 h1,
 h2,
 p,
-span {
+span,
+#message {
   margin: 0;
   color: #ffe81f;
 }
